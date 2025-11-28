@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le mémoire</title>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">  
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <!-- ##### Navigation ##### -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo"><a href="index.html"><img src="image/logo.jpg" alt="logo"></a></div>
+        <label class="ham-menu" for="menu-toggle-checkbox">☰</label>
+        <input type="checkbox" id="menu-toggle-checkbox">
+        <nav>           
+          <ul>             
+            <li><a href="menu.html">Menu</a></li>             
+            <li><a href="about.html">About</a></li>             
+            <li><a href="contact.html">Contact</a></li>           
+          </ul>         
+        </nav> 
+      </div>
+    </div>
+  </header>
+  <!-- ##### Main content ##### -->
+  <main class="contact-container">
+    <div class="contact-title">
+      <h1>Contact Us</h1>
+      <div class="contact-title-decoration">
+        <p class="contact-subtitle">We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, we're here to help.</p>
+        <span class="contact-leaf-icon">✿</span>
+      </div>
+    </div>
+
+    <section class="contact-info">
+      <h2>Get In Touch</h2>
+
+      <div class="contact-method">
+        <h3>Email</h3>
+        <p><a href="mailto:m@lememoirecafe.com">m@lememoirecafe.com</a></p>
+      </div>
+
+      <div class="contact-method">
+        <h3>Phone</h3>
+        <p><a href="tel:+1234567890">+1 (123) 567 7890</a></p>
+      </div>
+
+      <div class="contact-method">
+        <h3>Address</h3>
+        <p>123 Cafe Shop Stree <br> Vancouver, BC <br>Canada</p>
+      </div>
+
+      <div class="social-links">
+        <h3>Fllow Us</h3>
+        <div class="contact-social-icons">
+          <a href="#" class="contact-social-icon">F</a>
+          <a href="#" class="contact-social-icon">I</a>
+          <a href="#" class="contact-social-icon">T</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="phone">Phone (optional)</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject">
+            <option value="general">General Inquiry</option>
+            <option value="reservation">Reservation</option>
+            <option value="feedback">Feedback</option>
+            <option value="catering">Catering</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+
+    </section>
+  
+  
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-logo"><img class="footer-logo" src="image/logo.jpg" alt="logo"></div>
+      <div class="footer-links">
+        <div class="footer-column">
+          <h3>Menu</h3>
+          <ul>
+            <li><a href="#">Seasonal</a></li>
+            <li><a href="#">Coffee</a></li>
+            <li><a href="#">Cold Drinks</a></li>
+            <li><a href="#">Pastries</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>About</h3>
+          <ul>
+            <li><a href="#">Our Goals</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Pictures</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="#">Email Us</a></li>
+            <li><a href="#">Call Us</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-subscription">
+        <h3>Subscribe to our newsletter</h3>
+        <form class="subscription-form">
+          <input type="email" placeholder="Your email address">
+          <button type="submit">Subscribe</button>
+        </form>
+        <div class="footer-social">
+          <h3>Follow us</h3>
+          <div class="social">
+            <a href="#" class="social-icon">F</a>
+            <a href="#" class="social-icon">I</a>
+            <a href="#" class="social-icon">T</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </footer> 
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le mémoire</title>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">  
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="chatgpt">
+  <link rel="stylesheet" href="https://stock.adobe.com">
+</head>
+<body>
+  <!-- ##### Navigation ##### -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo"><a href="index.html"><img src="image/logo.jpg" alt="logo"></a></div>
+        <label class="ham-menu" for="menu-toggle-checkbox">☰</label>
+        <input type="checkbox" id="menu-toggle-checkbox">
+        <nav>           
+          <ul>             
+            <li><a href="menu.html">Menu</a></li>             
+            <li><a href="about.html">About</a></li>             
+            <li><a href="contact.html">Contact</a></li>           
+          </ul>         
+        </nav> 
+      </div>
+    </div>
+  </header>
+  <!-- ##### Main content ##### -->
+  <main class="container">
+    <div class="hero">
+      <div class="carousel" data-flickity='{ "autoPlay": 10000, "wrapAround": true, "cellAlign": "center", "contain": true, "prevNextButtons": true, "pageDots": true }'>         
+        
+        <div class="carousel-cell"><img src="image/pink-cafe-outside.jpeg" alt="Cafe Exterior View">
+          <div class="carousel-overlay">
+            <h1>Welcome to Le Mémoire</h1>
+            <p>Every cup tells a story at Le Mémoire</p>
+            <a href="menu.html" class="menu-button">See Our Menu</a>
+          </div>
+        </div>
+        <div class="carousel-cell"><img src="image/sakura-drink.png" alt="Sakura Drink"></div>
+        <div class="carousel-cell"><img src="image/pink-cafe.jpeg" alt="Cafe Coner View"></div>
+        <div class="carousel-cell"><img src="image/pink-shop-inside.jpeg" alt="Cafe Interior View"></div>
+        
+      </div> 
+    </div>
+  <!-- Freature Section -->
+  <section class="feature">
+    <h2>Featured Favorites</h2>  
+      <h3>Discover the top picks our guests can&apos;t get enough of!</h3>  
+      <div class="popu-menu">     
+        
+        <div class="home-menu"><img src="image/lemonade.png" alt="lemonade"></div>         
+        <div class="home-menu"><img src="image/pink-cloud-cupcake.png" alt="cupcake"></div>         
+        <div class="home-menu"><img src="image/pistachio-mocha.png" alt="pistachio-mocha"></div>       
+      </div>
+
+  </section>
+  <!-- Business Hours Section -->
+  <section class="hours-section">
+    <h2>Business Hours</h2>
+    <div class="hours-container">
+      <div class="hours-column">
+        <div class="hours-item">
+          <span class="day">Monday - Friday:</span>
+          <span class="time">7:00 AM - 7:00 PM</span>
+        </div>
+        <div class="hours-item">
+          <span class="day">Saturday:</span>
+          <span class="time">8:00 AM - 8:00 PM</span>
+        </div>
+        <div class="hours-item">
+          <span class="day">Sunday:</span>
+          <span class="time">8:00 AM - 6:00 PM</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mobile App Advertisement -->
+  <section class="mobile-app">
+    <div class="app-content">
+      <h2>Download Our App</h2>
+      <p>Order ahead and skip the line!</p>
+      <img src="image/mobile.png" alt="">
+      <div class="app-buttons">
+        <a href="#" class="app-button">Google Play</a>
+        <a href="#" class="app-button">Apple Store</a>
+      </div>
+    </div>
+  </section>  
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-logo"><img class="footer-logo" src="image/logo.jpg" alt="logo"></div>
+      <div class="footer-links">
+        <div class="footer-column">
+          <h3>Menu</h3>
+          <ul>
+            <li><a href="#">Seasonal</a></li>
+            <li><a href="#">Coffee</a></li>
+            <li><a href="#">Cold Drinks</a></li>
+            <li><a href="#">Pastries</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>About</h3>
+          <ul>
+            <li><a href="#">Our Goals</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Pictures</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="#">Email Us</a></li>
+            <li><a href="#">Call Us</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-subscription">
+        <h3>Subscribe to our newsletter</h3>
+        <form class="subscription-form">
+          <input type="email" placeholder="Your email address">
+          <button type="submit">Subscribe</button>
+        </form>
+        <div class="footer-social">
+          <h3>Follow us</h3>
+          <div class="social">
+            <a href="#" class="social-icon">F</a>
+            <a href="#" class="social-icon">I</a>
+            <a href="#" class="social-icon">T</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </footer> 
+  <!-- Flickity JavaScript library -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  
+</body>
+
+
+</html>
